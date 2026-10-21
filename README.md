@@ -28,3 +28,4 @@ SkillSync is a web-based project designed to help students create profiles and p
 
 ## Developed By
 Team CodeNova
+In Development
