@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkillSync</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+</body>
+</html>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">SkillSync</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Find Skills</a>
+            <a href="#">Register</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="tagline">LEARN • SHARE • GROW</p>
+
+            <h1>
+                Exchange Skills.<br>
+                <span>Build Connections.</span>
+            </h1>
+
+            <p>
+                SkillSync connects students who want to learn
+                with students who have skills to share.
+            </p>
+
+            <div class="buttons">
+                <button onclick="findSkill()">Find a Skill</button>
+                <button class="secondary">Join SkillSync</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features --><section class="register-section">
+
+    <h2>Join SkillSync</h2>
+
+    <p>Create your student skill profile.</p>
+
+    <div class="register-form">
+
+        <input type="text" id="studentName" placeholder="Enter your name">
+
+        <input type="text" id="department" placeholder="Enter your department">
+
+        <input type="text" id="teachSkill" placeholder="Skills you can teach">
+
+        <input type="text" id="learnSkill" placeholder="Skills you want to learn">
+
+        <button onclick="registerStudent()">Create Profile</button>
+
+    </div>
+
+    <div id="registerResult"></div>
+
+</section>
+    <section class="features">
+        <section class="search-section">
+
+    <h2>Find a Skill</h2>
+
+    <p>Search for a skill and find students who can teach you.</p>
+
+    <div class="search-box">
+        <input type="text" id="skillInput" placeholder="Enter a skill e.g. Python">
+        <button onclick="searchSkill()">Search</button>
+    </div>
+
+    <div id="results"></div>
+
+</section>
+
+        <h2>How SkillSync Works</h2>
+
+        <div class="feature-container">
+
+            <div class="card">
+                <h3>🎯 Find a Skill</h3>
+                <p>Search for students who can teach the skill you want to learn.</p>
+            </div>
+
+            <div class="card">
+                <h3>💡 Share Your Skill</h3>
+                <p>Add the skills you know and help other students learn.</p>
+            </div>
+
+            <div class="card">
+                <h3>🤝 Connect</h3>
+                <p>Connect with students and learn together.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 SkillSync | Team CodeNova</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
